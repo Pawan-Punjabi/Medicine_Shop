@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 public class DatabaseConnection {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/epharmacy?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "root";  
+    private static final String PASSWORD = "pawan12345";  
     
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         try {
@@ -42,8 +42,8 @@ public class DatabaseConnection {
             java.sql.Statement stmt = conn.createStatement();
             
             // Create database and table if they don't exist
-            stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS epharmacy");
-            stmt.executeUpdate("USE epharmacy");
+            stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS epharmacy_APKS");
+            stmt.executeUpdate("USE epharmacy_APKS");
             
             String createTableSQL = 
                 "CREATE TABLE IF NOT EXISTS medicines (" +

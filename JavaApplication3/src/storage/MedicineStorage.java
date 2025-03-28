@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MedicineStorage {
-    private static final String DB_NAME = "epharmacy";
+    private static final String DB_NAME = "epharmacy_APKS";
 
     public MedicineStorage() {
         DatabaseConnection.initializeDatabase();

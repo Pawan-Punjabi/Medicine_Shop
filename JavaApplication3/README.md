@@ -41,7 +41,8 @@ Medicine_Shop1
     - Select `File > Open Project` and choose the `Medicine_Shop1` folder.
 
 3. **Database Configuration:**
-    - Create a MySQL database named `medicine_shop`.
+    - The MySQL database named will be created 
+      when you run MedicineShop.java Database name - `epharmacy_APKS`.
     - Use the following credentials:
       - Username: `root`
       - Password: `root`
