@@ -34,7 +34,7 @@ Medicine_Shop1
 ## ⚙️ Installation & Setup
 1. **Clone the Repository:**
     ```
-    git clone <repository-url>
+    git clone https://github.com/Pawan-Punjabi/Medicine_Shop.git
     ```
 2. **Open in NetBeans:**
     - Open NetBeans IDE.
